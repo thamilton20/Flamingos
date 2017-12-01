@@ -1,0 +1,44 @@
+body {
+  width: 90%;
+  margin: 0 auto; /*This centers the body content */
+}
+#content {
+  overflow: auto; /* makes a scroll bar */
+}
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+.column1, .column2, .column3{
+  width: 31.3%; /* thirds */
+  float: left;
+  margin: 1%;
+
+}
+
+.column3 {
+  margin-right: 0;
+}
+
+li {
+  display:inline;
+  padding: 0.5em;
+}
+
+#nav, #footer {
+  background-color: #ffb2e5;
+  padding: 0.5em 0;
+}
+
+#feature, .column1,.column2, .column3  {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
+.column1 {
+  img-size: 20%;
+}
+
+.column1, .column2, .column3{
+  height: 100%;
+}
